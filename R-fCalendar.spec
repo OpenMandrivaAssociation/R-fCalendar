@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/Archive/%{packname}/%{packname}_%{version}.tar.gz
-Requires:         R-methods R-MASS R-fUtilities R-fEcofin 
-Requires:         R-RUnit 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-MASS R-fUtilities R-fEcofin
-BuildRequires:    R-RUnit 
+Requires:         R-methods R-MASS R-fUtilities R-fEcofin R-RUnit 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
+BuildRequires:    R-MASS R-fUtilities R-fEcofin R-RUnit
 
 %description
 Environment for teaching "Financial Engineering and Computational Finance"
